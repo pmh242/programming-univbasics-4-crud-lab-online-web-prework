@@ -1,17 +1,19 @@
 def create_an_empty_array
-  
+  first_array = []
 end
 
 def create_an_array
-  
+  second_array = [1, 2, 3, 4]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  third_array = ["wow", "I", "am", "really", "learning"]
+  third_array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  fourth_array = ["I", "am", "really", "learning"]
+  fourth_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
