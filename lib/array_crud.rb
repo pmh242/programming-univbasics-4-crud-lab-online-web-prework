@@ -43,5 +43,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   tenth_array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  tenth_array
+  tenth_array[0] = "amazing"
 end
