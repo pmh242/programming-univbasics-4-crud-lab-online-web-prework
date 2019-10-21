@@ -23,7 +23,7 @@ end
 
 def remove_element_from_start_of_array(array)
   sixth_array = ["wow", "I", "am", "really", "learning", "arrays!"]
-  stored_removed_item = sixth_array.shift
+  item_removed_variable = sixth_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
